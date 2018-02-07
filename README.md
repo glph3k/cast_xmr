@@ -22,6 +22,7 @@ Cast XMR is specially optimized for the Radeon RX Vega series of GPUs, reaching 
 - Support for following GPUs:
 	- Radeon RX Vega 64 
 	- Radeon RX Vega 56
+	- Radeon Vega Frontier Edition
 	- Radeon RX 480/RX 580 
 	- Radeon RX 470/RX 570 
 - Multiple GPU support
@@ -37,5 +38,4 @@ Cast XMR is specially optimized for the Radeon RX Vega series of GPUs, reaching 
 
 
 More info at http://www.gandalph3000.com
-
 
