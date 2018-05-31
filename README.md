@@ -12,12 +12,12 @@ Cast XMR is specially optimized for the Radeon RX Vega series of GPUs, reaching 
 - Full support for CryptoNight/CryptoNote based currencies:
   - **CryptoNightV7**
 	- [Monero (XMR)](https://getmonero.org)
+	- [Intense (ITNS)](https://intensecoin.com)
 	- [Graft (GRFT)](https://www.graft.network)
 	- [Stellite (XTL)](https://stellite.cash)
   - **CryptoNight (Classic)**
 	- [Bytecoin (BCN)](https://bytecoin.org)
 	- [Electroneum (ETN)](https://electroneum.com)
-	- [Intense (ITNS)](https://intensecoin.com)
 	- [DigitalNote (XDN)](http://digitalnote.org)
 	- [LeviarCoin (XLC)](https://leviarcoin.org)
 	- [Karbo (KRB)](https://karbo.io)
@@ -57,6 +57,9 @@ The <code>--algo</code> option specifies which CryptoNight variant to use:
  - <code>--algo=0</code> for CryptoNight (Classic)
  - <code>--algo=1</code> for CryptoNightV7
  - <code>--algo=2</code> for CryptoNight-Heavy
+ - <code>--algo=3</code> for CryptoNight-Lite
+ - <code>--algo=4</code> for CryptoNightV7-Lite
+ - <code>--algo=5</code> for CryptoNightIPBC-Lite
 
 If algo is not specified the correct one for mining Monero will be selected.
 
