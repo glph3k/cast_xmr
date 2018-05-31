@@ -12,18 +12,24 @@ Cast XMR is specially optimized for the Radeon RX Vega series of GPUs, reaching 
 - Full support for CryptoNight/CryptoNote based currencies:
   - **CryptoNightV7**
 	- [Monero (XMR)](https://getmonero.org)
+	- [Electroneum (ETN)](https://electroneum.com)
 	- [Intense (ITNS)](https://intensecoin.com)
 	- [Graft (GRFT)](https://www.graft.network)
 	- [Stellite (XTL)](https://stellite.cash)
   - **CryptoNight (Classic)**
 	- [Bytecoin (BCN)](https://bytecoin.org)
-	- [Electroneum (ETN)](https://electroneum.com)
 	- [DigitalNote (XDN)](http://digitalnote.org)
 	- [LeviarCoin (XLC)](https://leviarcoin.org)
 	- [Karbo (KRB)](https://karbo.io)
   - **CryptoNight Heavy**
 	- [Sumokoin (SUMO)](https://www.sumokoin.org)
 	- [Haven (XHV)](https://havenprotocol.com)
+  - **CryptoNight Lite**
+	- [Aeon (AEON)](https://www.aeon.cash)
+  - **CryptoNightV7 Lite**
+	- [Turtlecoin (TRTL)](https://turtlecoin.lol)
+  - **CryptoNightIPBC Lite**
+	- [BitTube (TUBE) (former IPBC)](https://coin.bit.tube)
 - Fastest miner for AMD Radeon RX Vega GPU series
 - Support for following GPUs:
 	- Radeon RX Vega 64 
