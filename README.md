@@ -46,7 +46,7 @@ Cast XMR is specially optimized for the Radeon RX Vega series of GPUs, reaching 
 - Nicehasher support
 - Remote http access for statistics in JSON format 
 - Rate Watchdog to monitor each GPU performance
-- Includes **[switch-radeon-gpu command line tool](/cast_xmr/switch-radeon-gpu-compute-mode-hbcc-largepages/)** to restart GPUs, switch on/off HBCC, Compute Mode and Large Pages support for Radeon GPUs
+- Includes **[switch-radeon-gpu command line tool](http://www.gandalph3000.com/cast_xmr/switch-radeon-gpu-compute-mode-hbcc-largepages/)** to restart GPUs, switch on/off HBCC, Compute Mode and Large Pages support for Radeon GPUs
 
 ## Requirements
 
