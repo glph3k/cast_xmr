@@ -43,11 +43,13 @@ Cast XMR is specially optimized for the Radeon RX Vega series of GPUs, reaching 
 - Fast Job Switch option to minimize outdated shares
 - Nicehasher support
 - Remote http access for statistics in JSON format 
+- Rate Watchdog to monitor each GPU performance
+- Includes **[switch-radeon-gpu command line tool](/cast_xmr/switch-radeon-gpu-compute-mode-hbcc-largepages/)** to restart GPUs, switch on/off HBCC, Compute Mode and Large Pages support for Radeon GPUs
 
 ## Requirements
 
 - Windows 8/8.1/10 64 bit
-- For about **50% higher** hash rates the [Radeon Driver 18.3.4](https://support.amd.com/en-us/kb-articles/Pages/Radeon-Software-Adrenalin-Edition-18.3.4-Release-Notes.aspx) has to be installed as includes profound performance improvements over older drivers.
+- For about **50% higher** hash rates the [Radeon Driver 18.3.4](https://support.amd.com/en-us/kb-articles/Pages/Radeon-Software-Adrenalin-Edition-18.3.4-Release-Notes.aspx) or [Radeon Driver 18.4.1](https://support.amd.com/en-us/kb-articles/Pages/Radeon-Software-Adrenalin-Edition-18.4.1-Release-Notes.aspx) has to be installed as includes profound performance improvements over older drivers.
 
 
 ## How To
@@ -66,6 +68,8 @@ The <code>--algo</code> option specifies which CryptoNight variant to use:
  - <code>--algo=3</code> for CryptoNight-Lite
  - <code>--algo=4</code> for CryptoNightV7-Lite
  - <code>--algo=5</code> for CryptoNightIPBC-Lite
+ - <code>--algo=6</code> for CryptoNightXTL
+ - <code>--algo=7</code> for CryptoNightXHV-Heavy
 
 If algo is not specified the correct one for mining Monero will be selected.
 
@@ -87,6 +91,31 @@ In case you have multiple OpenCL implementation installed or mixed GPUs (Nvidia,
 ``
 cast_xmr -S [pool server] -u [username or wallet address] --opencl 1 -G 0
 ``
+
+
+### Optimization Options
+
+#### <code>--intensity</code>
+
+With the <code>--intensity</code> the memory allocation of the card can be optimized. If not specified an intensity will be selected which should give under most circumstances a stable hash rate. Depending on many factors (no monitor attached to card, HBCC turned off) the intensity can be increased to reach higher hash rates.
+
+Intensity can be set in the range from 0 to 10 (on some GPUs upto 12). It can be specified for each GPU separately by separating the values by comma. To set GPU0 to intensity 10, GPU1 to default intensity (-1) and GPU2 to intensity 7 following can be specified: 
+
+``
+cast_xmr -G 0,1,2 --intensity=10,-1,7 (... rest of configuration ...)
+``
+
+Note: If the intensity is set to high the hash rate can decrease, so higher is not always better. Also the stability can decrease with higher intensity, observed as a sharp drop of the hash rate after a few minutes running.
+
+
+#### <code>--fastjobswitch</code>
+
+As the processing is done in a large batch in parallel a processing round trip can take a few seconds. In cases where the pool sends a new job the processing time until the batch ends is lost and will generate 'Outdated Shares'. To prevent this add the <code>--fastjobswitch</code> to immediately switch to the new job. The displayed hash rate can fluctuate more then without the option so enable after finding your desired intensity and settings. Depending on the rate of job changes the net hash rate can increase up to 10% as nearly no 'Outdated Shares' will be produced anymore.
+
+#### <code>--ratewatchdog</code>
+
+Add the <code>--ratewatchdog</code> option to let Cast XMR monitor the hash rate of the GPU, if a sustained drop in hashrate is detected the effected GPU will be restarted. 
+
 
 For a complete list of configuration options run:
 
