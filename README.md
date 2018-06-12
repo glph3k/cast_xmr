@@ -15,18 +15,20 @@ Cast XMR is specially optimized for the Radeon RX Vega series of GPUs, reaching 
 	- [Electroneum (ETN)](https://electroneum.com)
 	- [Intense (ITNS)](https://intensecoin.com)
 	- [Graft (GRFT)](https://www.graft.network)
-	- [Stellite (XTL)](https://stellite.cash)
   - **CryptoNight (Classic)**
 	- [Bytecoin (BCN)](https://bytecoin.org)
 	- [DigitalNote (XDN)](http://digitalnote.org)
 	- [LeviarCoin (XLC)](https://leviarcoin.org)
 	- [Karbo (KRB)](https://karbo.io)
+  - **CryptoNightXTL**
+	- [Stellite (XTL)](https://stellite.cash)
   - **CryptoNight Heavy**
-	- [Sumokoin (SUMO)](https://www.sumokoin.org)
+	- [Loki (LOKI)](https://loki.network)
+	- [Saronite (XRN)](https://saronite.io)
+  - **CryptoNightXHV Heavy**
 	- [Haven (XHV)](https://havenprotocol.com)
-  - **CryptoNight Lite**
-	- [Aeon (AEON)](https://www.aeon.cash)
   - **CryptoNightV7 Lite**
+	- [Aeon (AEON)](https://www.aeon.cash)
 	- [Turtlecoin (TRTL)](https://turtlecoin.lol)
   - **CryptoNightIPBC Lite**
 	- [BitTube (TUBE) (former IPBC)](https://coin.bit.tube)
@@ -92,6 +94,12 @@ In case you have multiple OpenCL implementation installed or mixed GPUs (Nvidia,
 cast_xmr -S [pool server] -u [username or wallet address] --opencl 1 -G 0
 ``
 
+For a complete list of configuration options run:
+
+``
+cast_xmr --help
+``
+
 
 ### Optimization Options
 
@@ -117,11 +125,6 @@ As the processing is done in a large batch in parallel a processing round trip c
 Add the <code>--ratewatchdog</code> option to let Cast XMR monitor the hash rate of the GPU, if a sustained drop in hashrate is detected the effected GPU will be restarted. 
 
 
-For a complete list of configuration options run:
-
-``
-cast_xmr --help
-``
 
 
 More info at http://www.gandalph3000.com
