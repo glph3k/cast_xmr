@@ -12,10 +12,11 @@ Cast XMR is specially optimized for the Radeon RX Vega series of GPUs, reaching 
 - Full support for CryptoNight/CryptoNote based currencies:
   - **CryptoNightV7**
 	- [Monero (XMR)](https://getmonero.org)
-	- [Electroneum (ETN)](https://electroneum.com)
+	- [Lethean (LTHN) (former Intense)](https://intensecoin.com)
 	- [Intense (ITNS)](https://intensecoin.com)
 	- [Graft (GRFT)](https://www.graft.network)
   - **CryptoNight (Classic)**
+	- [Electroneum (ETN)](https://electroneum.com)
 	- [Bytecoin (BCN)](https://bytecoin.org)
 	- [DigitalNote (XDN)](http://digitalnote.org)
 	- [LeviarCoin (XLC)](https://leviarcoin.org)
@@ -30,8 +31,14 @@ Cast XMR is specially optimized for the Radeon RX Vega series of GPUs, reaching 
   - **CryptoNightV7 Lite**
 	- [Aeon (AEON)](https://www.aeon.cash)
 	- [Turtlecoin (TRTL)](https://turtlecoin.lol)
-  - **CryptoNightIPBC Lite**
+  - **CryptoNightTUBE Heavy**
 	- [BitTube (TUBE) (former IPBC)](https://coin.bit.tube)
+  - **CryptoNight Fast**
+	- [Masari (MSR)](https://getmasari.org)
+  - **CryptoNightFEST**
+	- [Festival Coin (FEST)](https://festivalcoin.net)
+
+
 - Fastest miner for AMD Radeon RX Vega GPU series
 - Support for following GPUs:
 	- Radeon RX Vega 64 
@@ -51,7 +58,7 @@ Cast XMR is specially optimized for the Radeon RX Vega series of GPUs, reaching 
 ## Requirements
 
 - Windows 8/8.1/10 64 bit
-- For about **50% higher** hash rates the [Radeon Driver 18.3.4](https://support.amd.com/en-us/kb-articles/Pages/Radeon-Software-Adrenalin-Edition-18.3.4-Release-Notes.aspx) or [Radeon Driver 18.4.1](https://support.amd.com/en-us/kb-articles/Pages/Radeon-Software-Adrenalin-Edition-18.4.1-Release-Notes.aspx) has to be installed as includes profound performance improvements over older drivers.
+- For about **50% higher** hash rates the [Radeon Driver 18.3.4](https://support.amd.com/en-us/kb-articles/Pages/Radeon-Software-Adrenalin-Edition-18.3.4-Release-Notes.aspx) or [Radeon Driver 18.4.1](https://support.amd.com/en-us/kb-articles/Pages/Radeon-Software-Adrenalin-Edition-18.4.1-Release-Notes.aspx) or later has to be installed as includes profound performance improvements over older drivers.
 
 
 ## How To
@@ -69,9 +76,11 @@ The <code>--algo</code> option specifies which CryptoNight variant to use:
  - <code>--algo=2</code> for CryptoNight-Heavy
  - <code>--algo=3</code> for CryptoNight-Lite
  - <code>--algo=4</code> for CryptoNightV7-Lite
- - <code>--algo=5</code> for CryptoNightIPBC-Lite
+ - <code>--algo=5</code> for CryptoNightTUBE-Heavy
  - <code>--algo=6</code> for CryptoNightXTL
  - <code>--algo=7</code> for CryptoNightXHV-Heavy
+ - <code>--algo=8</code> for CryptoNight-Fast
+ - <code>--algo=9</code> for CryptoNightFEST
 
 If algo is not specified the correct one for mining Monero will be selected.
 
