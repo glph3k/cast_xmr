@@ -13,7 +13,6 @@ Cast XMR is specially optimized for the Radeon RX Vega series of GPUs, reaching 
   - **CryptoNightV7**
 	- [Monero (XMR)](https://getmonero.org)
 	- [Lethean (LTHN) (former Intense)](https://intensecoin.com)
-	- [Intense (ITNS)](https://intensecoin.com)
 	- [Graft (GRFT)](https://www.graft.network)
   - **CryptoNight (Classic)**
 	- [Electroneum (ETN)](https://electroneum.com)
