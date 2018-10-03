@@ -14,6 +14,8 @@ Cast XMR is specially optimized for the Radeon RX Vega series of GPUs, reaching 
 	- [Monero (XMR)](https://getmonero.org)
 	- [Lethean (LTHN) (former Intense)](https://intensecoin.com)
 	- [Graft (GRFT)](https://www.graft.network)
+  - **CryptoNightV8 (CNv2)**
+	- [Monero (XMR) (upcoming V8 network upgrade)](https://getmonero.org)
   - **CryptoNight (Classic)**
 	- [Electroneum (ETN)](https://electroneum.com)
 	- [Bytecoin (BCN)](https://bytecoin.org)
@@ -57,7 +59,7 @@ Cast XMR is specially optimized for the Radeon RX Vega series of GPUs, reaching 
 ## Requirements
 
 - Windows 8/8.1/10 64 bit
-- For about **50% higher** hash rates the [Radeon Driver 18.3.4](https://support.amd.com/en-us/kb-articles/Pages/Radeon-Software-Adrenalin-Edition-18.3.4-Release-Notes.aspx) or [Radeon Driver 18.4.1](https://support.amd.com/en-us/kb-articles/Pages/Radeon-Software-Adrenalin-Edition-18.4.1-Release-Notes.aspx) or later has to be installed as includes profound performance improvements over older drivers.
+- For about **50% higher** hash rates the [Radeon Driver 18.3.4](https://support.amd.com/en-us/kb-articles/Pages/Radeon-Software-Adrenalin-Edition-18.3.4-Release-Notes.aspx) or [Radeon Driver 18.5.1](https://support.amd.com/en-us/kb-articles/Pages/Radeon-Software-Adrenalin-Edition-18.5.1-Release-Notes.aspx) or later has to be installed as includes profound performance improvements over older drivers.
 
 
 ## How To
@@ -71,7 +73,7 @@ cast_xmr -S [pool server] -u [username or wallet address] --algo=[n]
 The <code>--algo</code> option specifies which CryptoNight variant to use:
 
  - <code>--algo=0</code> for CryptoNight (Classic)
- - <code>--algo=1</code> for CryptoNightV7
+ - <code>--algo=1</code> for CryptoNightV7 (CNv1)
  - <code>--algo=2</code> for CryptoNight-Heavy
  - <code>--algo=3</code> for CryptoNight-Lite
  - <code>--algo=4</code> for CryptoNightV7-Lite
@@ -80,8 +82,9 @@ The <code>--algo</code> option specifies which CryptoNight variant to use:
  - <code>--algo=7</code> for CryptoNightXHV-Heavy
  - <code>--algo=8</code> for CryptoNight-Fast
  - <code>--algo=9</code> for CryptoNightFEST
+ - <code>--algo=10</code> for CryptoNightV8 (CNv2)
 
-If algo is not specified the correct one for mining Monero will be selected.
+If algo is not specified or set to -1 the correct one for mining Monero will be selected.
 
 To select which GPU to use the <code>-G</code> switch, e.g. for using the 2nd card use:
 
