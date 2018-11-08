@@ -10,18 +10,17 @@ Cast XMR is specially optimized for the Radeon RX Vega series of GPUs, reaching 
 ## Features
 
 - Full support for CryptoNight/CryptoNote based currencies:
-  - **CryptoNightV7 (CNv1)**
-	- [Monero (XMR)](https://getmonero.org)
-	- [Lethean (LTHN) (former Intense)](https://intensecoin.com)
-	- [Graft (GRFT)](https://www.graft.network)
   - **CryptoNightV8 (CNv2)**
-	- [Monero (XMR) (upcoming V8 network upgrade)](https://getmonero.org)
+	- [Monero (XMR)](https://getmonero.org)
+	- [Lethean (LTHN)](https://lethean.io/)
+	- [Graft (GRFT)](https://www.graft.network)
+  - **CryptoNightV7 (CNv1)**
+	- [Quantum Resistant Ledger (QRL)](https://theqrl.org/)
+	- [DigitalNote (XDN)](https://digitalnote.biz)
+	- [Safex (SAFEX)](https://safex.io/)
   - **CryptoNight (Classic)**
 	- [Electroneum (ETN)](https://electroneum.com)
 	- [Bytecoin (BCN)](https://bytecoin.org)
-	- [DigitalNote (XDN)](http://digitalnote.org)
-	- [LeviarCoin (XLC)](https://leviarcoin.org)
-	- [Karbo (KRB)](https://karbo.io)
   - **CryptoNightXTL**
 	- [Stellite (XTL)](https://stellite.cash)
   - **CryptoNight Heavy**
@@ -36,17 +35,13 @@ Cast XMR is specially optimized for the Radeon RX Vega series of GPUs, reaching 
 	- [BitTube (TUBE) (former IPBC)](https://coin.bit.tube)
   - **CryptoNight Fast**
 	- [Masari (MSR)](https://getmasari.org)
-  - **CryptoNightFEST**
-	- [Festival Coin (FEST)](https://festivalcoin.net)
-
 
 - Fastest miner for AMD Radeon RX Vega GPU series
 - Support for following GPUs:
 	- Radeon RX Vega 64 
 	- Radeon RX Vega 56
 	- Radeon Vega Frontier Edition
-	- Radeon RX 480/RX 580 
-	- Radeon RX 470/RX 570 
+	- Radeon RX 480/RX 470/RX 560/RX 570/RX 580 
 - Multiple GPU support
 - Monitor temperature and fan speed of each GPU
 - Full pool support
@@ -59,7 +54,7 @@ Cast XMR is specially optimized for the Radeon RX Vega series of GPUs, reaching 
 ## Requirements
 
 - Windows 8/8.1/10 64 bit
-- For about **50% higher** hash rates the [Radeon Driver 18.3.4](https://support.amd.com/en-us/kb-articles/Pages/Radeon-Software-Adrenalin-Edition-18.3.4-Release-Notes.aspx) or [Radeon Driver 18.5.1](https://support.amd.com/en-us/kb-articles/Pages/Radeon-Software-Adrenalin-Edition-18.5.1-Release-Notes.aspx) or later has to be installed as includes profound performance improvements over older drivers.
+- For about **highest hash rates** the [Radeon Driver 18.5.1](https://support.amd.com/en-us/kb-articles/Pages/Radeon-Software-Adrenalin-Edition-18.5.1-Release-Notes.aspx) or later has to be installed as includes profound performance and stability improvements over older drivers.
 
 
 ## How To
