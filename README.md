@@ -14,10 +14,10 @@ Cast XMR is specially optimized for the Radeon RX Vega series of GPUs, reaching 
 	- [Monero (XMR)](https://getmonero.org)
 	- [Lethean (LTHN)](https://lethean.io/)
 	- [Graft (GRFT)](https://www.graft.network)
+	- [Safex (SAFEX)](https://safex.io/)
   - **CryptoNightV7 (CNv1)**
 	- [Quantum Resistant Ledger (QRL)](https://theqrl.org/)
 	- [DigitalNote (XDN)](https://digitalnote.biz)
-	- [Safex (SAFEX)](https://safex.io/)
   - **CryptoNight (Classic)**
 	- [Electroneum (ETN)](https://electroneum.com)
 	- [Bytecoin (BCN)](https://bytecoin.org)
@@ -32,9 +32,11 @@ Cast XMR is specially optimized for the Radeon RX Vega series of GPUs, reaching 
 	- [Aeon (AEON)](https://www.aeon.cash)
 	- [Turtlecoin (TRTL)](https://turtlecoin.lol)
   - **CryptoNightTUBE Heavy**
-	- [BitTube (TUBE) (former IPBC)](https://coin.bit.tube)
+	- [BitTube (TUBE)](https://coin.bit.tube)
   - **CryptoNight Fast**
 	- [Masari (MSR)](https://getmasari.org)
+  - **CryptoNight SuperFast**
+	- [Free Haven (XFH)](https://freehavenprotocol.space)
 
 - Fastest miner for AMD Radeon RX Vega GPU series
 - Support for following GPUs:
@@ -54,7 +56,7 @@ Cast XMR is specially optimized for the Radeon RX Vega series of GPUs, reaching 
 ## Requirements
 
 - Windows 8/8.1/10 64 bit
-- For about **highest hash rates** the [Radeon Driver 18.5.1](https://support.amd.com/en-us/kb-articles/Pages/Radeon-Software-Adrenalin-Edition-18.5.1-Release-Notes.aspx) or later has to be installed as includes profound performance and stability improvements over older drivers.
+- For about **highest hash rates** the [Radeon Driver 18.5.1](https://www.amd.com/en/support/kb/release-notes/rn-rad-win-18-5-1) or later has to be installed as includes profound performance and stability improvements over older drivers.
 
 
 ## How To
@@ -78,6 +80,7 @@ The <code>--algo</code> option specifies which CryptoNight variant to use:
  - <code>--algo=8</code> for CryptoNight-Fast
  - <code>--algo=9</code> for CryptoNightFEST
  - <code>--algo=10</code> for CryptoNightV8 (CNv2)
+ - <code>--algo=11</code> for Crypto-SuperFast
 
 If algo is not specified or set to -1 the correct one for mining Monero will be selected.
 
@@ -129,7 +132,6 @@ As the processing is done in a large batch in parallel a processing round trip c
 #### <code>--ratewatchdog</code>
 
 Add the <code>--ratewatchdog</code> option to let Cast XMR monitor the hash rate of the GPU, if a sustained drop in hashrate is detected the effected GPU will be restarted. 
-
 
 
 
