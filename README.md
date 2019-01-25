@@ -21,8 +21,6 @@ Cast XMR is specially optimized for the Radeon RX Vega series of GPUs, reaching 
   - **CryptoNight (Classic)**
 	- [Electroneum (ETN)](https://electroneum.com)
 	- [Bytecoin (BCN)](https://bytecoin.org)
-  - **CryptoNightXTL**
-	- [Stellite (XTL)](https://stellite.cash)
   - **CryptoNight Heavy**
 	- [Loki (LOKI)](https://loki.network)
 	- [Saronite (XRN)](https://saronite.io)
@@ -30,13 +28,17 @@ Cast XMR is specially optimized for the Radeon RX Vega series of GPUs, reaching 
 	- [Haven (XHV)](https://havenprotocol.com)
   - **CryptoNightV7 Lite**
 	- [Aeon (AEON)](https://www.aeon.cash)
-	- [Turtlecoin (TRTL)](https://turtlecoin.lol)
-  - **CryptoNightTUBE Heavy**
+  - **CryptoNightTUBE Heavy (CN Saber)**
 	- [BitTube (TUBE)](https://coin.bit.tube)
   - **CryptoNight Fast**
-	- [Masari (MSR)](https://getmasari.org)
+	- [Conceal (CCX)](https://conceal.network/)
+  - **CryptoNightV8 Fast (CNv2 Fast)**
+	- [Stellite (XTL)](https://stellite.cash)
+	- [Masari (MSR)](https://getmasari.org) (upcoming network upgrade)
   - **CryptoNight SuperFast**
-	- [Free Haven (XFH)](https://freehavenprotocol.space)
+	- [Swap (XWP)](https://swap.fyi)
+  - **CryptoNight Turtle**
+	- [Turtlecoin (TRTL)](https://turtlecoin.lol) (upcoming network upgrade)
 
 - Fastest miner for AMD Radeon RX Vega GPU series
 - Support for following GPUs:
@@ -75,12 +77,12 @@ The <code>--algo</code> option specifies which CryptoNight variant to use:
  - <code>--algo=3</code> for CryptoNight-Lite
  - <code>--algo=4</code> for CryptoNightV7-Lite
  - <code>--algo=5</code> for CryptoNightTUBE-Heavy
- - <code>--algo=6</code> for CryptoNightXTL
+ - <code>--algo=6</code> for CryptoNightV8-Fast (CNv2-Fast)
  - <code>--algo=7</code> for CryptoNightXHV-Heavy
  - <code>--algo=8</code> for CryptoNight-Fast
- - <code>--algo=9</code> for CryptoNightFEST
+ - <code>--algo=9</code> for CryptoNight-Turtle
  - <code>--algo=10</code> for CryptoNightV8 (CNv2)
- - <code>--algo=11</code> for Crypto-SuperFast
+ - <code>--algo=11</code> for CryptoNight-SuperFast
 
 If algo is not specified or set to -1 the correct one for mining Monero will be selected.
 
