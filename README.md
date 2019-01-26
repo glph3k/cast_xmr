@@ -34,7 +34,7 @@ Cast XMR is specially optimized for the Radeon RX Vega series of GPUs, reaching 
 	- [Conceal (CCX)](https://conceal.network/)
   - **CryptoNightV8 Fast (CNv2 Fast)**
 	- [Stellite (XTL)](https://stellite.cash)
-	- [Masari (MSR)](https://getmasari.org) (upcoming network upgrade)
+	- [Masari (MSR)](https://getmasari.org)
   - **CryptoNight SuperFast**
 	- [Swap (XWP)](https://swap.fyi)
   - **CryptoNight Turtle**
