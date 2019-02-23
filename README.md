@@ -17,7 +17,6 @@ Cast XMR is specially optimized for the Radeon RX Vega series of GPUs, reaching 
 	- [Safex (SAFEX)](https://safex.io/)
   - **CryptoNightV7 (CNv1)**
 	- [Quantum Resistant Ledger (QRL)](https://theqrl.org/)
-	- [DigitalNote (XDN)](https://digitalnote.biz)
   - **CryptoNight (Classic)**
 	- [Electroneum (ETN)](https://electroneum.com)
 	- [Bytecoin (BCN)](https://bytecoin.org)
@@ -35,13 +34,12 @@ Cast XMR is specially optimized for the Radeon RX Vega series of GPUs, reaching 
   - **CryptoNightV8 Fast (CNv2 Fast)**
 	- [Stellite (XTL)](https://stellite.cash)
 	- [Masari (MSR)](https://getmasari.org)
-  - **CryptoNight SuperFast**
-	- [Swap (XWP)](https://swap.fyi)
   - **CryptoNight Turtle**
-	- [Turtlecoin (TRTL)](https://turtlecoin.lol) (upcoming network upgrade)
+	- [Turtlecoin (TRTL)](https://turtlecoin.lol)
 
 - Fastest miner for AMD Radeon RX Vega GPU series
 - Support for following GPUs:
+        - Radeon VII
 	- Radeon RX Vega 64 
 	- Radeon RX Vega 56
 	- Radeon Vega Frontier Edition
@@ -82,7 +80,6 @@ The <code>--algo</code> option specifies which CryptoNight variant to use:
  - <code>--algo=8</code> for CryptoNight-Fast
  - <code>--algo=9</code> for CryptoNight-Turtle
  - <code>--algo=10</code> for CryptoNightV8 (CNv2)
- - <code>--algo=11</code> for CryptoNight-SuperFast
 
 If algo is not specified or set to -1 the correct one for mining Monero will be selected.
 
