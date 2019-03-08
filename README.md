@@ -1,8 +1,6 @@
-# cast_xmr
+# Cast XMR - high speed CryptoNight miner for Radeon RX Vega GPUs
 
-Cast XMR - high speed CryptoNight miner for Radeon RX Vega GPUs
-
-Here is 'Cast XMR' the high performance CryptoNight miner for CryptoNote based crypto currencies like [Monero (XMR)](https://getmonero.org/), [Bytecoin (BCN)](https://bytecoin.org), [DigitalNote (XDN)](http://digitalnote.org) and many more. 
+'Cast XMR' the high performance CryptoNight miner for CryptoNote based crypto currencies. 
 
 Cast XMR is specially optimized for the Radeon RX Vega series of GPUs, reaching hash rates of more then 2000 CryptoNight Hashes/s on an single RX Vega 56 or Vega 64.
 
