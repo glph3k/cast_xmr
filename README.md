@@ -9,37 +9,20 @@ Cast XMR is specially optimized for the Radeon RX Vega series of GPUs, reaching 
 
 ## Features
 
-- Full support for CryptoNight/CryptoNote based currencies:
+- Supported CryptoNight/CryptoNote PoW hash algorithms:
   - **CryptoNightV8 (CNv2)**
-	- [Monero (XMR)](https://getmonero.org)
-	- [Lethean (LTHN)](https://lethean.io/)
-	- [Graft (GRFT)](https://www.graft.network)
-	- [Safex (SAFEX)](https://safex.io/)
   - **CryptoNightV7 (CNv1)**
-	- [Quantum Resistant Ledger (QRL)](https://theqrl.org/)
   - **CryptoNight (Classic)**
-	- [Electroneum (ETN)](https://electroneum.com)
-	- [Bytecoin (BCN)](https://bytecoin.org)
   - **CryptoNight Heavy**
-	- [Loki (LOKI)](https://loki.network)
-	- [Saronite (XRN)](https://saronite.io)
   - **CryptoNightXHV Heavy**
-	- [Haven (XHV)](https://havenprotocol.com)
   - **CryptoNightV7 Lite**
-	- [Aeon (AEON)](https://www.aeon.cash)
   - **CryptoNightTUBE Heavy (CN Saber)**
-	- [BitTube (TUBE)](https://coin.bit.tube)
   - **CryptoNight Fast**
-	- [Conceal (CCX)](https://conceal.network/)
   - **CryptoNightV8 Fast (CNv2 Fast)**
-	- [Stellite (XTL)](https://stellite.cash)
-	- [Masari (MSR)](https://getmasari.org)
   - **CryptoNight Turtle**
-	- [Turtlecoin (TRTL)](https://turtlecoin.lol)
 
-- Fastest miner for AMD Radeon RX Vega GPU series
 - Support for following GPUs:
-        - Radeon VII
+	- Radeon VII
 	- Radeon RX Vega 64 
 	- Radeon RX Vega 56
 	- Radeon Vega Frontier Edition
@@ -51,12 +34,13 @@ Cast XMR is specially optimized for the Radeon RX Vega series of GPUs, reaching 
 - Nicehasher support
 - Remote http access for statistics in JSON format 
 - Rate Watchdog to monitor each GPU performance
-- Includes **[switch-radeon-gpu command line tool](http://www.gandalph3000.com/cast_xmr/switch-radeon-gpu-compute-mode-hbcc-largepages/)** to restart GPUs, switch on/off HBCC, Compute Mode and Large Pages support for Radeon GPUs
+- Includes **switch-radeon-gpu command line tool** to restart GPUs, switch on/off HBCC, Compute Mode and Large Pages support for Radeon GPUs
 
 ## Requirements
 
-- Windows 8/8.1/10 64 bit
-- For about **highest hash rates** the [Radeon Driver 18.5.1](https://www.amd.com/en/support/kb/release-notes/rn-rad-win-18-5-1) or later has to be installed as includes profound performance and stability improvements over older drivers.
+- Windows 8/8.1/10 64 bit or
+- Ubuntu Linux 16.04 (64 bit) or later
+- For **highest hash rates** the [Radeon Driver 18.5.1](https://www.amd.com/en/support/kb/release-notes/rn-rad-win-18-5-1) **or later** has to be installed as they include profound performance and stability improvements over older drivers.
 
 
 ## How To
@@ -132,7 +116,4 @@ As the processing is done in a large batch in parallel a processing round trip c
 
 Add the <code>--ratewatchdog</code> option to let Cast XMR monitor the hash rate of the GPU, if a sustained drop in hashrate is detected the effected GPU will be restarted. 
 
-
-
-More info at http://www.gandalph3000.com
 
